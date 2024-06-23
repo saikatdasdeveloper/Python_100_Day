@@ -27,17 +27,17 @@ scissors = '''
 ---.__(___)
 '''
 
-user_in=input("Enter 0 for rock, 1 for paper, 2 for Scissors")
+user_in=input("Enter 0 for rock, 1 for paper, 2 for Scissors\n --->")
 
 random_computer_in = random.randint(0,2)
-
+print("Your Input: ")
 if user_in == "0" :
     print(rock)
 if user_in == "1" :
     print(paper)
 if user_in == "2" :
     print(scissors)
-
+print("Computer Inputed: ")
 if random_computer_in == 0 :
     print(rock)
 if random_computer_in == 1 :
