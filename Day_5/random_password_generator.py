@@ -9,21 +9,21 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 password = ""
-for char in range(0, nr_letters+1):
+for char in range(0, nr_letters):
     random_char = random.choice(letters)
     password += random_char
 
 # print("Password: " + password)
 
 sym_pass = ""
-for char_sym in range(0, nr_symbols+1):
+for char_sym in range(0, nr_symbols):
     random_char_sym = random.choice(symbols)
     sym_pass += random_char_sym
 
 # print("Password: " + sym_pass)
 
 num_pass =""
-for char_num in range(0, nr_numbers+1):
+for char_num in range(0, nr_numbers):
     random_char_num = random.choice(numbers)
     num_pass += random_char_num
 
